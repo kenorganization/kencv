@@ -1,0 +1,48 @@
+# 系統檔案
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 編輯器和 IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 依賴項目
+node_modules/
+package-lock.json
+yarn.lock
+
+# 建構檔案
+dist/
+build/
+
+# 日誌檔案
+*.log
+logs/
+
+# 暫存檔案
+*.tmp
+*.temp
+
+# 備份檔案
+*.bak
+*.backup
+*_backup.*
+*_複製.*
+
+# 壓縮檔案
+*.zip
+*.rar
+*.7z
+
+# 其他不需要版控的檔案
+storage/
+.env
+.env.local
+
+# Windows 暫存檔案
+*.cache
+ehthumbs.db

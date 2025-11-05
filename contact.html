@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2BQQZJEH5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-P2BQQZJEH5');
+    </script>
+
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>健恩 Ken - 全端工程師 | 個人網站</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- Google Search Console 驗證 -->
+    <meta name="google-site-verification" content="gtDOM1_QYonbekNw7NSsRPJhzunxH3epxqnAMUqCLzo" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+
+    <!-- 自定義樣式，增強錯誤訊息顯示 -->
+    <style>
+      .error-message {
+        padding: 10px 15px;
+        background-color: rgba(255, 99, 71, 0.1);
+        border-left: 4px solid #ff6347;
+        margin-bottom: 20px;
+        font-size: 14px;
+        border-radius: 4px;
+      }
+
+      .error-title {
+        font-weight: bold;
+        color: #d9534f;
+        margin-bottom: 5px;
+        display: block;
+      }
+
+      .sent-message {
+        padding: 10px 15px;
+        background-color: rgba(39, 174, 96, 0.1);
+        border-left: 4px solid #27ae60;
+        margin-bottom: 20px;
+        font-size: 14px;
+        border-radius: 4px;
+      }
+
+      /* 輸入欄位驗證樣式 */
+      .form-control.is-invalid {
+        border-color: #dc3545;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+        background-repeat: no-repeat;
+        background-position: right calc(0.375em + 0.1875rem) center;
+        background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+      }
+
+      .invalid-feedback {
+        display: none;
+        width: 100%;
+        margin-top: 0.25rem;
+        font-size: 80%;
+        color: #dc3545;
+      }
+
+      .form-control.is-invalid ~ .invalid-feedback {
+        display: block;
+      }
+    </style>
+
+    <!-- =======================================================
+  * Template Name: Kelly
+  * Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
+
+  <body class="contact-page">
+    <header id="header" class="header d-flex align-items-center light-background sticky-top">
+      <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1 class="sitename">Ken</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html">首頁</a></li>
+            <li><a href="about.html">關於我</a></li>
+            <li><a href="resume.html">履歷</a></li>
+            <li><a href="skill.html">專長技能</a></li>
+            <li><a href="portfolio.html">專案</a></li>
+            <li><a href="interest.html">興趣專長</a></li>
+            <li class="dropdown">
+              <a href="#">
+                <span>一些生活</span>
+                <i class="bi bi-chevron-down toggle-dropdown"></i>
+              </a>
+              <ul>
+                <li><a href="#">Dropdown 1</a></li>
+                <li class="dropdown">
+                  <a href="#">
+                    <span>Deep Dropdown</span>
+                    <i class="bi bi-chevron-down toggle-dropdown"></i>
+                  </a>
+                  <ul>
+                    <li><a href="#">Deep Dropdown 1</a></li>
+                    <li><a href="#">Deep Dropdown 2</a></li>
+                    <li><a href="#">Deep Dropdown 3</a></li>
+                    <li><a href="#">Deep Dropdown 4</a></li>
+                    <li><a href="#">Deep Dropdown 5</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Dropdown 2</a></li>
+                <li><a href="#">Dropdown 3</a></li>
+                <li><a href="#">Dropdown 4</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html" class="active">聯繫我</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+        <div class="header-social-links">
+          <a href="https://www.linkedin.com/in/%E5%81%A5%E6%81%A9-%E5%BE%90-21a279207/" target="_blank" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          <a href="mailto:ken158ken@yahoo.com.tw" title="Email"><i class="bi bi-envelope"></i></a>
+          <a href="https://www.cake.me/s--aki_V7TcrKM7MKCprTQv8g--/ken150ken150" target="_blank" title="CakeResume"><i class="bi bi-file-person"></i></a>
+          <a href="#" title="GitHub"><i class="bi bi-github"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- Contact Section -->
+      <section id="contact" class="contact section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>聯繫我</h2>
+          <p>聯繫我</p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-lg-5">
+              <div class="info-wrap">
+                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                  <i class="bi bi-geo-alt flex-shrink-0"></i>
+                  <div>
+                    <h3>地址</h3>
+                    <p>桃園市中壢區</p>
+                  </div>
+                </div>
+                <!-- End Info Item -->
+
+                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                  <i class="bi bi-telephone flex-shrink-0"></i>
+                  <div>
+                    <h3>電話</h3>
+                    <p>電子郵件聯繫我吧~</p>
+                  </div>
+                </div>
+                <!-- End Info Item -->
+
+                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                  <i class="bi bi-envelope flex-shrink-0"></i>
+                  <div>
+                    <h3>電子郵件</h3>
+                    <p>ken158ken@yahoo.com.tw</p>
+                  </div>
+                </div>
+                <!-- End Info Item -->
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.366888240198!2d121.22301827521495!3d24.953629077868527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34682248fcfa49d7%3A0x57e0b78df52b3c96!2sZhongli%20Station!5e0!3m2!1szh-CN!2stw!4v1745850009308!5m2!1szh-CN!2stw" frameborder="0" style="border: 0; width: 100%; height: 270px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+
+            <div class="col-lg-7">
+              <!-- 修改表單的 action 屬性以使用 Formspree URL -->
+              <form action="https://formspree.io/f/xyzwzrow" method="POST" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                <div class="row gy-4">
+                  <div class="col-md-6">
+                    <label for="name-field" class="pb-2">貴姓大名</label>
+                    <input type="text" name="name" id="name-field" class="form-control" required="" maxlength="100" />
+                    <div class="invalid-feedback">請提供您的姓名，最多100個字符</div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="email-field" class="pb-2">你的電子郵件</label>
+                    <input type="email" class="form-control" name="email" id="email-field" required="" maxlength="100" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" />
+                    <div class="invalid-feedback">請提供有效的電子郵件地址，如：example@email.com</div>
+                  </div>
+
+                  <div class="col-md-12">
+                    <label for="subject-field" class="pb-2">給我的郵件標題</label>
+                    <input type="text" class="form-control" name="subject" id="subject-field" required="" maxlength="200" />
+                    <div class="invalid-feedback">請提供郵件標題，最多200個字符</div>
+                  </div>
+
+                  <div class="col-md-12">
+                    <label for="message-field" class="pb-2">郵件內容</label>
+                    <textarea class="form-control" name="message" rows="10" id="message-field" required="" maxlength="5000"></textarea>
+                    <div class="invalid-feedback">請提供郵件內容，最多5000個字符</div>
+                  </div>
+
+                  <!-- 防止自動提交的隱藏欄位 (蜜罐欄位) -->
+                  <div style="display: none">
+                    <input type="text" name="_gotcha" />
+                  </div>
+
+                  <!-- 添加 CSRF 保護 (Formspree 會自動處理) -->
+                  <input type="hidden" name="_csrf" value="{{csrfToken}}" />
+
+                  <!-- 以下是表單提交狀態訊息 -->
+                  <div class="col-md-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">
+                      <i class="bi bi-check-circle me-2"></i>
+                      您的訊息已成功發送，謝謝您的聯繫！我會盡快回覆您。
+                    </div>
+
+                    <button type="submit">發送訊息</button>
+                  </div>
+                </div>
+              </form>
+
+              <!-- 添加 JavaScript 處理表單提交與安全檢查 -->
+              <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                  const form = document.querySelector('.php-email-form');
+
+                  // 添加基本輸入驗證函數
+                  function sanitizeInput(input) {
+                    // 移除可能的 HTML 標籤和特殊字符
+                    return input.replace(/<[^>]*>/g, '').trim();
+                  }
+
+                  // 添加電子郵件驗證函數
+                  function isValidEmail(email) {
+                    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+                    return emailRegex.test(email);
+                  }
+
+                  // 顯示特定錯誤訊息的函數
+                  function showError(message, title = '錯誤') {
+                    const errorElement = form.querySelector('.error-message');
+                    errorElement.innerHTML = `<span class="error-title">${title}</span>${message}`;
+                    errorElement.style.display = 'block';
+                    form.querySelector('.loading').style.display = 'none';
+
+                    // 平滑滾動到錯誤訊息
+                    errorElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                  }
+
+                  // 重置所有表單驗證狀態
+                  function resetValidation() {
+                    const inputs = form.querySelectorAll('.form-control');
+                    inputs.forEach((input) => {
+                      input.classList.remove('is-invalid');
+                    });
+                    form.querySelector('.error-message').style.display = 'none';
+                  }
+
+                  // 將指定的輸入欄位標記為無效
+                  function markAsInvalid(inputElement, message = null) {
+                    inputElement.classList.add('is-invalid');
+                    if (message) {
+                      const feedbackElement = inputElement.nextElementSibling;
+                      if (feedbackElement && feedbackElement.classList.contains('invalid-feedback')) {
+                        feedbackElement.textContent = message;
+                      }
+                    }
+                    // 聚焦到第一個無效欄位
+                    if (document.querySelectorAll('.is-invalid').length === 1) {
+                      inputElement.focus();
+                    }
+                  }
+
+                  // 為所有輸入欄位添加實時驗證
+                  const inputs = form.querySelectorAll('.form-control');
+                  inputs.forEach((input) => {
+                    input.addEventListener('input', function () {
+                      if (this.checkValidity()) {
+                        this.classList.remove('is-invalid');
+                      }
+                    });
+                  });
+
+                  form.addEventListener('submit', function (event) {
+                    // 防止表單立即提交
+                    event.preventDefault();
+
+                    // 重置驗證狀態
+                    resetValidation();
+
+                    // 進行安全檢查
+                    const nameInput = document.getElementById('name-field');
+                    const emailInput = document.getElementById('email-field');
+                    const subjectInput = document.getElementById('subject-field');
+                    const messageInput = document.getElementById('message-field');
+
+                    let isValid = true;
+
+                    // 檢查必填欄位
+                    if (!nameInput.value.trim()) {
+                      markAsInvalid(nameInput, '請填寫您的姓名');
+                      isValid = false;
+                    }
+
+                    if (!emailInput.value.trim()) {
+                      markAsInvalid(emailInput, '請填寫您的電子郵件');
+                      isValid = false;
+                    }
+
+                    if (!subjectInput.value.trim()) {
+                      markAsInvalid(subjectInput, '請填寫郵件標題');
+                      isValid = false;
+                    }
+
+                    if (!messageInput.value.trim()) {
+                      markAsInvalid(messageInput, '請填寫郵件內容');
+                      isValid = false;
+                    }
+
+                    // 過濾和驗證輸入
+                    nameInput.value = sanitizeInput(nameInput.value);
+                    subjectInput.value = sanitizeInput(subjectInput.value);
+                    messageInput.value = sanitizeInput(messageInput.value);
+
+                    // 驗證電子郵件
+                    if (emailInput.value && !isValidEmail(emailInput.value)) {
+                      markAsInvalid(emailInput, '電子郵件格式不正確，例：name@example.com');
+                      isValid = false;
+                    }
+
+                    // 檢查輸入長度限制
+                    if (nameInput.value.length > 100) {
+                      markAsInvalid(nameInput, '姓名不能超過100個字符');
+                      isValid = false;
+                    }
+
+                    if (emailInput.value.length > 100) {
+                      markAsInvalid(emailInput, '電子郵件不能超過100個字符');
+                      isValid = false;
+                    }
+
+                    if (subjectInput.value.length > 200) {
+                      markAsInvalid(subjectInput, '標題不能超過200個字符');
+                      isValid = false;
+                    }
+
+                    if (messageInput.value.length > 5000) {
+                      markAsInvalid(messageInput, '郵件內容不能超過5000個字符');
+                      isValid = false;
+                    }
+
+                    // 如果驗證失敗，顯示錯誤並停止
+                    if (!isValid) {
+                      showError('請正確填寫上述標記的欄位，然後再次提交表單。', '表單驗證失敗');
+                      return;
+                    }
+
+                    // 顯示 loading 訊息
+                    form.querySelector('.loading').style.display = 'block';
+                    form.querySelector('.error-message').style.display = 'none';
+                    form.querySelector('.sent-message').style.display = 'none';
+
+                    // 使用 fetch API 發送表單數據到 Formspree
+                    fetch(form.action, {
+                      method: form.method,
+                      body: new FormData(form),
+                      headers: {
+                        Accept: 'application/json',
+                      },
+                    })
+                      .then((response) => {
+                        // 即使返回的是 JSON 格式的錯誤，也按成功處理
+                        if (response.status === 200 || response.status === 201) {
+                          return Promise.resolve();
+                        } else if (response.status === 429) {
+                          throw new Error('您提交的速度過快，請稍後再試。');
+                        } else if (response.status === 422) {
+                          throw new Error('表單提交被拒絕，可能是防垃圾郵件檢查未通過。請稍後再試或直接發送郵件至 ken158ken@yahoo.com.tw');
+                        } else {
+                          return response.json().then((data) => {
+                            throw new Error(data.error || '表單提交失敗，請稍後再試。');
+                          });
+                        }
+                      })
+                      .then(() => {
+                        // 隱藏 loading 訊息，顯示成功訊息
+                        form.querySelector('.loading').style.display = 'none';
+                        form.querySelector('.sent-message').style.display = 'block';
+
+                        // 平滑滾動到成功訊息
+                        form.querySelector('.sent-message').scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+                        // 重置表單
+                        form.reset();
+                      })
+                      .catch((error) => {
+                        // 如果錯誤訊息包含 "next" 和 "ok":true，則視為成功
+                        if (error.message.includes('"ok":true')) {
+                          // 隱藏 loading 訊息，顯示成功訊息
+                          form.querySelector('.loading').style.display = 'none';
+                          form.querySelector('.sent-message').style.display = 'block';
+
+                          // 平滑滾動到成功訊息
+                          form.querySelector('.sent-message').scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+                          // 重置表單
+                          form.reset();
+                        } else {
+                          // 根據不同錯誤類型顯示友好錯誤訊息
+                          let errorTitle = '提交失敗';
+                          let errorMsg = error.message;
+
+                          if (error.message.includes('提交速度過快')) {
+                            errorTitle = '頻率限制';
+                            errorMsg = '您提交的速度過快，這是防止濫用的安全措施。請稍等幾分鐘後再次嘗試，或直接發送郵件至 ken158ken@yahoo.com.tw';
+                          } else if (error.message.includes('防垃圾郵件檢查')) {
+                            errorTitle = '安全檢查';
+                            errorMsg = '您的提交被系統標記為可疑。這可能是暫時性問題，請稍後再試，或直接發送郵件至 ken158ken@yahoo.com.tw';
+                          } else if (error.message.includes('Network Error') || error.message.includes('Failed to fetch')) {
+                            errorTitle = '網絡問題';
+                            errorMsg = '無法連接到伺服器。請檢查您的網絡連接，然後再試一次。如果問題持續存在，請直接發送郵件至 ken158ken@yahoo.com.tw';
+                          }
+
+                          showError(errorMsg, errorTitle);
+                        }
+                      });
+                  });
+                });
+              </script>
+            </div>
+            <!-- End Contact Form -->
+          </div>
+        </div>
+      </section>
+      <!-- /Contact Section -->
+    </main>
+
+    <footer id="footer" class="footer light-background">
+      <div class="container">
+        <div class="copyright text-center d-none">
+          <p>
+            ©
+            <span>Copyright</span>
+            <strong class="px-1 sitename">Kelly</strong>
+            <span>
+              All Rights Reserved
+              <br />
+            </span>
+          </p>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a href="https://www.linkedin.com/in/%E5%81%A5%E6%81%A9-%E5%BE%90-21a279207/" target="_blank" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          <a href="mailto:ken158ken@yahoo.com.tw" title="Email"><i class="bi bi-envelope"></i></a>
+          <a href="https://www.cake.me/s--aki_V7TcrKM7MKCprTQv8g--/ken150ken150" target="_blank" title="CakeResume"><i class="bi bi-file-person"></i></a>
+          <a href="#" title="GitHub"><i class="bi bi-github"></i></a>
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Designed by
+          <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- 移除可能干擾的原始表單驗證腳本 -->
+    <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
