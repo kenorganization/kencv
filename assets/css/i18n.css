@@ -1,0 +1,85 @@
+/* 語言切換按鈕樣式 */
+.language-switcher {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 1rem;
+}
+
+.language-switcher button {
+  background: transparent;
+  border: 2px solid var(--accent-color, #00a78e);
+  color: var(--default-color, #364d59);
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.language-switcher button:hover {
+  background-color: var(--accent-color, #00a78e);
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 167, 142, 0.2);
+}
+
+.language-switcher button.active {
+  background-color: var(--accent-color, #00a78e);
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.language-switcher button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 167, 142, 0.3);
+}
+
+/* 分隔線 */
+.language-switcher .divider {
+  width: 1px;
+  height: 20px;
+  background-color: var(--default-color, #364d59);
+  opacity: 0.3;
+}
+
+/* 響應式設計 - 手機版 */
+@media (max-width: 1199px) {
+  .language-switcher {
+    margin-left: 0;
+    margin-top: 1rem;
+    justify-content: center;
+    padding: 1rem 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* 深色模式支援 */
+@media (prefers-color-scheme: dark) {
+  .language-switcher button {
+    border-color: #4ade80;
+    color: #e5e7eb;
+  }
+
+  .language-switcher button:hover {
+    background-color: #4ade80;
+    color: #1a1a1a;
+  }
+
+  .language-switcher button.active {
+    background-color: #4ade80;
+    color: #1a1a1a;
+  }
+}
+
+/* 平滑過渡效果 */
+[data-i18n] {
+  transition: opacity 0.2s ease;
+}
+
+.language-switching [data-i18n] {
+  opacity: 0.6;
+}

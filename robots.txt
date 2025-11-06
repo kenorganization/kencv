@@ -32,8 +32,8 @@ Allow: /skill.html
 # 允許資源檔案
 Allow: /assets/
 
-# Sitemap 位置（未來建立後取消註解）
-# Sitemap: https://kenorganization.github.io/kencv/sitemap.xml
+# Sitemap 位置
+Sitemap: https://kenorganization.github.io/kencv/sitemap.xml
 
 # 特定搜尋引擎爬蟲設定
 User-agent: Googlebot

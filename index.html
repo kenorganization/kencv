@@ -25,6 +25,11 @@
     <!-- Canonical URL -->
     <link rel="canonical" href="https://kenorganization.github.io/kencv/" />
 
+    <!-- Hreflang 多語言標籤 -->
+    <link rel="alternate" hreflang="zh-TW" href="https://kenorganization.github.io/kencv/" />
+    <link rel="alternate" hreflang="en" href="https://kenorganization.github.io/kencv/en/" />
+    <link rel="alternate" hreflang="x-default" href="https://kenorganization.github.io/kencv/" />
+
     <!-- Google Search Console 驗證 -->
     <meta name="google-site-verification" content="gtDOM1_QYonbekNw7NSsRPJhzunxH3epxqnAMUqCLzo" />
 
@@ -74,6 +79,9 @@
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet" />
 
+    <!-- I18n CSS File -->
+    <link href="assets/css/i18n.css" rel="stylesheet" />
+
     <!-- =======================================================
   * Template Name: Kelly
   * Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
@@ -94,12 +102,12 @@
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="index.html" class="active">首頁</a></li>
-            <li><a href="about.html">關於我</a></li>
-            <li><a href="resume.html">履歷</a></li>
-            <li><a href="skill.html">專長技能</a></li>
-            <li><a href="portfolio.html">專案</a></li>
-            <li><a href="interest.html">興趣專長</a></li>
+            <li><a href="index.html" class="active" data-i18n="nav.home">首頁</a></li>
+            <li><a href="about.html" data-i18n="nav.about">關於我</a></li>
+            <li><a href="resume.html" data-i18n="nav.resume">履歷</a></li>
+            <li><a href="skill.html" data-i18n="nav.skill">專長技能</a></li>
+            <li><a href="portfolio.html" data-i18n="nav.portfolio">專案</a></li>
+            <li><a href="interest.html" data-i18n="nav.interest">興趣專長</a></li>
             <li class="dropdown">
               <a href="#">
                 <span>一些生活</span>
@@ -135,6 +143,13 @@
           <a href="mailto:ken158ken@yahoo.com.tw" title="Email"><i class="bi bi-envelope"></i></a>
           <a href="https://www.cake.me/s--aki_V7TcrKM7MKCprTQv8g--/ken150ken150" target="_blank" title="CakeResume"><i class="bi bi-file-person"></i></a>
           <a href="#" title="GitHub"><i class="bi bi-github"></i></a>
+
+          <!-- 語言切換按鈕 -->
+          <div class="language-switcher">
+            <span class="divider"></span>
+            <button type="button" data-lang="zh-TW" class="active" title="繁體中文">中文</button>
+            <button type="button" data-lang="en" title="English">EN</button>
+          </div>
         </div>
       </div>
     </header>
@@ -142,14 +157,14 @@
     <main class="main">
       <!-- Hero Section -->
       <section id="hero" class="hero section">
-        <img src="assets/img/hero-bg1.png" alt="" data-aos="fade-in" />
+        <img src="assets/img/hero-bg1.png" alt="健恩 Ken - 全端工程師個人形象照" data-i18n-alt="hero-bg" data-aos="fade-in" />
 
         <div class="container text-center" data-aos="zoom-out" data-aos-delay="100">
           <div class="row justify-content-center">
             <div class="col-lg-5">
-              <h2 style="font-size: 36px">Hi！我是健恩</h2>
-              <p>從實驗室到程式碼—跨領域的全端工程師，融合科學與創意開發。</p>
-              <a href="about.html" class="btn-get-started" style="font-size: 16px">關 於 我</a>
+              <h2 style="font-size: 36px" data-i18n="home.greeting">Hi！我是健恩</h2>
+              <p data-i18n="home.tagline">從實驗室到程式碼—跨領域的全端工程師，融合科學與創意開發。</p>
+              <a href="about.html" class="btn-get-started" style="font-size: 16px" data-i18n="home.cta">關 於 我</a>
             </div>
           </div>
         </div>
@@ -206,5 +221,8 @@
 
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
+
+    <!-- I18n JS File -->
+    <script src="assets/js/i18n.js"></script>
   </body>
 </html>
