@@ -13,10 +13,11 @@ const translations = {
     'nav.home': '首頁',
     'nav.about': '關於我',
     'nav.resume': '履歷',
-    'nav.skill': '專長技能',
+    'nav.skills': '專長技能',
     'nav.portfolio': '作品集',
     'nav.interest': '興趣專長',
     'nav.contact': '聯絡我',
+    'nav.life': '一些生活',
 
     // 首頁
     'home.greeting': 'Hi！我是健恩',
@@ -35,6 +36,11 @@ const translations = {
     'about.email': '電子郵件:',
     'about.master': 'Master',
     'about.location': 'Taoyuan, Taiwan',
+    'about.desc1': '專注 IoT 系統架構的全端開發者，整合軟韌體技術與跨領域經驗，提供從設計原型到產品落地的完整解決方案。核心優勢在於結合 UI/UX 設計思維與製造端實務，打造真正可落地的高效系統。',
+    'about.tech-transform': '技術轉型：',
+    'about.desc2': '醫材研發期間接觸軟韌體整合，發現對程式開發的熱忱。完成資展國際全端培訓後，獨立完成專題雲端部署（MySQL → PostgreSQL 遷移 + Render 平台架設），掌握 React、Vue、Node.js、Express 等現代化技術棧。',
+    'about.current-work': '現職實踐：',
+    'about.desc3': '於盧森堡商濂達科技擔任先進智能工程師，主導 IoT 系統架構設計與軟韌體協議整合平台開發。技術棧涵蓋後端（Spring Boot）、跨平台前端（React Native + TypeScript、Kotlin）及多元資料庫方案（MySQL / PostgreSQL / MongoDB）。持續以跨領域視角創造製造業數位轉型價值。',
 
     // 履歷
     'resume.title': '履歷',
@@ -81,10 +87,11 @@ const translations = {
     'nav.home': 'Home',
     'nav.about': 'About',
     'nav.resume': 'Resume',
-    'nav.skill': 'Skills',
+    'nav.skills': 'Skills',
     'nav.portfolio': 'Portfolio',
     'nav.interest': 'Interests',
     'nav.contact': 'Contact',
+    'nav.life': 'Life',
 
     // Home
     'home.greeting': "Hi! I'm Ken",
@@ -103,6 +110,11 @@ const translations = {
     'about.email': 'Email:',
     'about.master': 'Master',
     'about.location': 'Taoyuan, Taiwan',
+    'about.desc1': 'Full-stack developer focused on IoT system architecture, integrating software and firmware technologies with cross-domain experience to provide complete solutions from design prototype to product implementation. Core advantage lies in combining UI/UX design thinking with manufacturing practice to create truly implementable efficient systems.',
+    'about.tech-transform': 'Technical Transformation:',
+    'about.desc2': 'Discovered passion for programming during medical device R&D through exposure to software-firmware integration. After completing III full-stack training, independently deployed cloud-based projects (MySQL → PostgreSQL migration + Render platform setup), mastering modern technology stacks including React, Vue, Node.js, and Express.',
+    'about.current-work': 'Current Practice:',
+    'about.desc3': 'Serving as Advanced Intelligence Engineer at NEB Luxembourg, leading IoT system architecture design and software-firmware protocol integration platform development. Technology stack covers backend (Spring Boot), cross-platform frontend (React Native + TypeScript, Kotlin), and diverse database solutions (MySQL / PostgreSQL / MongoDB). Continuously creating digital transformation value for manufacturing from a cross-domain perspective.',
 
     // Resume
     'resume.title': 'Resume',
