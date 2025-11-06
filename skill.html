@@ -67,6 +67,9 @@
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet" />
 
+    <!-- 多語言切換樣式 -->
+    <link href="assets/css/i18n.css" rel="stylesheet" />
+
     <!-- =======================================================
   * Template Name: Kelly
   * Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
@@ -87,15 +90,15 @@
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="index.html">首頁</a></li>
-            <li><a href="about.html">關於我</a></li>
-            <li><a href="resume.html">履歷</a></li>
-            <li><a href="skill.html" class="active">專長技能</a></li>
-            <li><a href="portfolio.html">專案</a></li>
-            <li><a href="portfolio.html">興趣專長</a></li>
+            <li><a href="index.html" data-i18n="nav.home">首頁</a></li>
+            <li><a href="about.html" data-i18n="nav.about">關於我</a></li>
+            <li><a href="resume.html" data-i18n="nav.resume">履歷</a></li>
+            <li><a href="skill.html" class="active" data-i18n="nav.skills">專長技能</a></li>
+            <li><a href="portfolio.html" data-i18n="nav.portfolio">專案</a></li>
+            <li><a href="interest.html" data-i18n="nav.interest">興趣專長</a></li>
             <li class="dropdown">
               <a href="#">
-                <span>一些生活</span>
+                <span data-i18n="nav.life">一些生活</span>
                 <i class="bi bi-chevron-down toggle-dropdown"></i>
               </a>
               <ul>
@@ -118,12 +121,17 @@
                 <li><a href="#">Dropdown 4</a></li>
               </ul>
             </li>
-            <li><a href="contact.html">聯繫我</a></li>
+            <li><a href="contact.html" data-i18n="nav.contact">聯繫我</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
 
         <div class="header-social-links">
+          <!-- 語言切換按鈕 -->
+          <div class="language-switcher">
+            <button class="active" data-lang="zh-TW">中文</button>
+            <button data-lang="en">EN</button>
+          </div>
           <a href="https://www.linkedin.com/in/%E5%81%A5%E6%81%A9-%E5%BE%90-21a279207/" target="_blank" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
           <a href="mailto:ken158ken@yahoo.com.tw" title="Email"><i class="bi bi-envelope"></i></a>
           <a href="https://www.cake.me/s--aki_V7TcrKM7MKCprTQv8g--/ken150ken150" target="_blank" title="CakeResume"><i class="bi bi-file-person"></i></a>
@@ -342,5 +350,8 @@
 
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
+
+    <!-- 多語言系統 -->
+    <script src="assets/js/i18n.js"></script>
   </body>
 </html>
