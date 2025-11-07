@@ -109,6 +109,10 @@ const translations = {
     'contact.form.loading': 'Loading',
     'contact.form.success': '您的訊息已成功發送，謝謝您的聯繫！我會盡快回覆您。',
 
+    // 興趣專長
+    'interest.title': '興趣專長',
+    'interest.subtitle': '個人興趣與專長展示',
+
     // 其他
     'common.loading': '載入中...',
     'common.error': '發生錯誤',
@@ -214,6 +218,10 @@ const translations = {
     'contact.form.send': 'Send Message',
     'contact.form.loading': 'Loading',
     'contact.form.success': 'Your message has been sent successfully. Thank you for contacting me! I will reply as soon as possible.',
+
+    // Interests
+    'interest.title': 'Interests',
+    'interest.subtitle': 'Personal Interests and Hobbies',
 
     // Common
     'common.loading': 'Loading...',
