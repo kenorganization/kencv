@@ -86,10 +86,11 @@ const translations = {
     'skill.computer': '電腦技能/管理系統',
 
     // 作品集
-    'portfolio.title': '作品集',
+    'portfolio.title': '專案',
+    'portfolio.subtitle': '過去執行專案及學術發表活動',
     'portfolio.all': '全部',
-    'portfolio.app': '應用程式',
-    'portfolio.product': '產品',
+    'portfolio.app': '專案',
+    'portfolio.product': '學術發表',
     'portfolio.branding': '品牌設計',
 
     // 聯絡我
@@ -186,10 +187,11 @@ const translations = {
     'skill.computer': 'Computer Skills / Management Systems',
 
     // Portfolio
-    'portfolio.title': 'Portfolio',
+    'portfolio.title': 'Projects',
+    'portfolio.subtitle': 'Past Projects and Academic Publications',
     'portfolio.all': 'All',
-    'portfolio.app': 'App',
-    'portfolio.product': 'Product',
+    'portfolio.app': 'Projects',
+    'portfolio.product': 'Academic Publications',
     'portfolio.branding': 'Branding',
 
     // Contact
