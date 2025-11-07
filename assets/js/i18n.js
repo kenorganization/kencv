@@ -44,11 +44,36 @@ const translations = {
 
     // 履歷
     'resume.title': '履歷',
+    'resume.subtitle': '在學經歷/就業經歷',
     'resume.education': '在學經歷',
     'resume.experience': '工作經歷',
     'resume.master': '碩士',
     'resume.bachelor': '學士',
-    'resume.university': '國立台東大學生命科學系',
+    'resume.highschool': '高中',
+    'resume.ta': '助教',
+    'resume.nttu': '國立台東大學生命科學系',
+    'resume.tnsh': '國立台南二中',
+    'resume.location.taitung': '台東縣台東市',
+    'resume.location.tainan': '台南市北區',
+    'resume.location.taoyuan.yangmei': '桃園市楊梅區',
+    'resume.location.taoyuan.bade': '桃園市八德區',
+    'resume.location.taipei.wenshan': '台北市文山區',
+    'resume.location.taipei.xinyi': '台北市信義區',
+
+    // 工作職位
+    'resume.job.software': '軟體工程師',
+    'resume.job.medical': '醫療器材研發工程師',
+    'resume.job.cosmetics': '化妝品研發工程師',
+    'resume.job.research': '研究助理',
+
+    // 公司名稱
+    'resume.company.semiconductor': '半導體相關產業',
+    'resume.company.microbase': '微邦科技股份有限公司',
+    'resume.company.sholin': '香林企業股份有限公司',
+    'resume.company.tmu': '臺北醫學大學藥學系',
+
+    // 工作時間
+    'resume.period.current': '至今',
 
     // 專長技能
     'skill.title': '專長技能',
@@ -118,11 +143,36 @@ const translations = {
 
     // Resume
     'resume.title': 'Resume',
+    'resume.subtitle': 'Education / Work Experience',
     'resume.education': 'Education',
     'resume.experience': 'Professional Experience',
     'resume.master': 'Master Degree',
     'resume.bachelor': 'Bachelor Degree',
-    'resume.university': 'National Taitung University, Life Science',
+    'resume.highschool': 'High School',
+    'resume.ta': 'Teaching Assistant',
+    'resume.nttu': 'National Taitung University, Department of Life Science',
+    'resume.tnsh': 'National Tainan Second Senior High School',
+    'resume.location.taitung': 'Taitung City, Taitung County',
+    'resume.location.tainan': 'North District, Tainan City',
+    'resume.location.taoyuan.yangmei': 'Yangmei District, Taoyuan City',
+    'resume.location.taoyuan.bade': 'Bade District, Taoyuan City',
+    'resume.location.taipei.wenshan': 'Wenshan District, Taipei City',
+    'resume.location.taipei.xinyi': 'Xinyi District, Taipei City',
+    
+    // Job Titles
+    'resume.job.software': 'Software Engineer',
+    'resume.job.medical': 'Medical Device R&D Engineer',
+    'resume.job.cosmetics': 'Cosmetics R&D Engineer',
+    'resume.job.research': 'Research Assistant',
+    
+    // Company Names
+    'resume.company.semiconductor': 'Semiconductor Industry',
+    'resume.company.microbase': 'MicroBase Technology Co., Ltd.',
+    'resume.company.sholin': 'Sholin Enterprise Co., Ltd.',
+    'resume.company.tmu': 'Taipei Medical University, School of Pharmacy',
+    
+    // Time Period
+    'resume.period.current': 'Present',
 
     // Skills
     'skill.title': 'Skills',
