@@ -5,7 +5,7 @@
   <!-- 首頁 - 最高優先級 -->
   <url>
     <loc>https://kenorganization.github.io/kencv/</loc>
-    <lastmod>2025-11-07</lastmod>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kenorganization.github.io/kencv/" />
@@ -16,7 +16,7 @@
   <!-- 關於我 -->
   <url>
     <loc>https://kenorganization.github.io/kencv/about.html</loc>
-    <lastmod>2025-11-07</lastmod>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kenorganization.github.io/kencv/about.html" />
@@ -26,7 +26,7 @@
   <!-- 履歷 -->
   <url>
     <loc>https://kenorganization.github.io/kencv/resume.html</loc>
-    <lastmod>2025-11-07</lastmod>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kenorganization.github.io/kencv/resume.html" />
@@ -36,39 +36,39 @@
   <!-- 專長技能 -->
   <url>
     <loc>https://kenorganization.github.io/kencv/skill.html</loc>
-    <lastmod>2025-11-07</lastmod>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kenorganization.github.io/kencv/skill.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://kenorganization.github.io/kencv/skill.html" />
   </url>
 
-  <!-- 作品集 - 較低優先級（內容優化中） -->
+  <!-- 作品集 - 已完成多語言整合 -->
   <url>
     <loc>https://kenorganization.github.io/kencv/portfolio.html</loc>
-    <lastmod>2025-11-07</lastmod>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kenorganization.github.io/kencv/portfolio.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://kenorganization.github.io/kencv/portfolio.html" />
   </url>
 
-  <!-- 聯絡我 - 較低優先級（內容優化中） -->
+  <!-- 聯絡我 - 已完成多語言整合 -->
   <url>
     <loc>https://kenorganization.github.io/kencv/contact.html</loc>
-    <lastmod>2025-11-07</lastmod>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kenorganization.github.io/kencv/contact.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://kenorganization.github.io/kencv/contact.html" />
   </url>
 
-  <!-- 興趣專長 - 較低優先級（內容優化中） -->
+  <!-- 興趣專長 - 已完成多語言整合 -->
   <url>
     <loc>https://kenorganization.github.io/kencv/interest.html</loc>
-    <lastmod>2025-11-07</lastmod>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://kenorganization.github.io/kencv/interest.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://kenorganization.github.io/kencv/interest.html" />
   </url>

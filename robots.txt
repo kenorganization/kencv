@@ -8,11 +8,6 @@ Disallow: /forms/
 Disallow: /note
 Disallow: /*.md$
 
-# 暫時排除內容尚未完成的頁面
-Disallow: /portfolio.html
-Disallow: /contact.html
-Disallow: /interest.html
-
 # 排除專案詳細頁面（如果不需要索引）
 Disallow: /portfolio-details.html
 Disallow: /starter-page.html
@@ -23,11 +18,14 @@ Disallow: /Readme.txt
 Disallow: /.gitignore
 Disallow: /.prettierrc
 
-# 允許主要頁面
+# 允許主要頁面（所有頁面都已完成多語言整合）
 Allow: /index.html
 Allow: /about.html
 Allow: /resume.html
 Allow: /skill.html
+Allow: /portfolio.html
+Allow: /contact.html
+Allow: /interest.html
 
 # 允許資源檔案
 Allow: /assets/
