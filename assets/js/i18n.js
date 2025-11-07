@@ -77,6 +77,7 @@ const translations = {
 
     // 專長技能
     'skill.title': '專長技能',
+    'skill.subtitle': 'Specialty Skills',
     'skill.web': '網頁開發',
     'skill.medical': '醫療器材研發',
     'skill.cosmetics': '化妝品研發',
@@ -158,24 +159,25 @@ const translations = {
     'resume.location.taoyuan.bade': 'Bade District, Taoyuan City',
     'resume.location.taipei.wenshan': 'Wenshan District, Taipei City',
     'resume.location.taipei.xinyi': 'Xinyi District, Taipei City',
-    
+
     // Job Titles
     'resume.job.software': 'Software Engineer',
     'resume.job.medical': 'Medical Device R&D Engineer',
     'resume.job.cosmetics': 'Cosmetics R&D Engineer',
     'resume.job.research': 'Research Assistant',
-    
+
     // Company Names
     'resume.company.semiconductor': 'Semiconductor Industry',
     'resume.company.microbase': 'MicroBase Technology Co., Ltd.',
     'resume.company.sholin': 'Sholin Enterprise Co., Ltd.',
     'resume.company.tmu': 'Taipei Medical University, School of Pharmacy',
-    
+
     // Time Period
     'resume.period.current': 'Present',
 
     // Skills
     'skill.title': 'Skills',
+    'skill.subtitle': 'Specialty Skills',
     'skill.web': 'Web Development',
     'skill.medical': 'Medical Device R&D',
     'skill.cosmetics': 'Cosmetics R&D',
