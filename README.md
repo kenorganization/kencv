@@ -1,6 +1,6 @@
 # 健恩 (Ken) - 個人履歷網站
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3.3-purple.svg)](https://getbootstrap.com/) [![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--09--02-brightgreen.svg)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3.3-purple.svg)](https://getbootstrap.com/) [![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--01--28-brightgreen.svg)](#)
 
 ## 🚀 專案描述
 
@@ -13,6 +13,7 @@
 - 📱 完美支援行動裝置
 - 🔍 SEO 優化設定
 - 🌐 社交媒體整合
+- 🌍 完整多語言支援（繁體中文/英文）
 
 ## 🛠️ 技術棧
 
@@ -25,6 +26,7 @@
 - **佈局**: Isotope Layout
 - **圖示**: Bootstrap Icons
 - **計數動畫**: PureCounter
+- **多語言**: 自製 i18n 系統（支援繁體中文/英文）
 
 ### 開發工具
 
@@ -32,29 +34,98 @@
 - **程式碼編輯器**: VS Code
 - **瀏覽器相容性**: Chrome, Firefox, Safari, Edge
 
+## 🌍 多語言系統
+
+### 特色功能
+
+- ✅ **完整雙語支援** - 繁體中文（zh-TW）與英文（en）
+- ✅ **動態語言切換** - 無需重新載入頁面
+- ✅ **SEO 優化** - 完整的 hreflang 標籤設定
+- ✅ **使用者體驗** - 記憶使用者語言偏好（localStorage）
+- ✅ **語意化翻譯** - 採用階層式翻譯鍵值結構
+
+### 翻譯系統架構
+
+```javascript
+// 翻譯鍵值結構範例
+translations = {
+  'zh-TW': {
+    'nav.home': '首頁',
+    'resume.title': '履歷',
+    'skill.web': '網頁開發',
+    ...
+  },
+  'en': {
+    'nav.home': 'Home',
+    'resume.title': 'Resume',
+    'skill.web': 'Web Development',
+    ...
+  }
+}
+```
+
+### 使用方式
+
+HTML 元素加入 `data-i18n` 屬性：
+
+```html
+<h2 data-i18n="resume.title">履歷</h2>
+<p data-i18n="resume.subtitle">在學經歷/就業經歷</p>
+```
+
+語言切換按鈕會自動替換所有標記元素的文字內容。
+
+### 翻譯完成度
+
+| 頁面           | 進度    | 說明                                   |
+| -------------- | ------- | -------------------------------------- |
+| index.html     | ✅ 100% | 首頁完整翻譯（含導航、內容、圖片 alt） |
+| about.html     | ✅ 100% | 關於我頁面完整翻譯                     |
+| resume.html    | ✅ 95%  | 履歷頁面主要結構翻譯完成               |
+| skill.html     | ✅ 100% | 技能頁面完整翻譯                       |
+| portfolio.html | ✅ 100% | 作品集頁面標題與篩選器翻譯完成         |
+| contact.html   | ✅ 100% | 聯絡頁面完整翻譯（含表單欄位）         |
+| interest.html  | ✅ 50%  | 基礎翻譯完成（待補充實際內容）         |
+
 ## 📁 專案結構
 
 ```
 kencv/
-├── 📄 *.html                    # 網頁檔案
+├── 📄 *.html                    # 網頁檔案（7 個主要頁面）
+│   ├── index.html               # 首頁
+│   ├── about.html               # 關於我
+│   ├── resume.html              # 履歷
+│   ├── skill.html               # 專長技能
+│   ├── portfolio.html           # 作品集
+│   ├── contact.html             # 聯繫我
+│   └── interest.html            # 興趣專長
 ├── 📁 assets/
 │   ├── 🎨 css/
-│   │   └── main.css              # 主要樣式檔案
-│   ├── 🖼️ img/                   # 圖片資源
-│   │   ├── masonry-portfolio/    # 作品集圖片
-│   │   ├── portfolio/            # 專案圖片
-│   │   ├── project/              # 專案詳細圖片
-│   │   ├── skill/                # 技能圖示
-│   │   └── testimonials/         # 推薦圖片
+│   │   ├── main.css             # 主要樣式檔案
+│   │   └── i18n.css             # 多語言切換樣式
+│   ├── 🖼️ img/                  # 圖片資源
+│   │   ├── masonry-portfolio/   # 作品集圖片
+│   │   ├── portfolio/           # 專案圖片
+│   │   ├── project/             # 專案詳細圖片
+│   │   ├── skill/               # 技能圖示
+│   │   └── testimonials/        # 推薦圖片
 │   ├── 📜 js/
-│   │   └── main.js               # 主要 JavaScript 檔案
-│   ├── 🎨 scss/                  # SCSS 原始檔
-│   └── 📦 vendor/                # 第三方套件
+│   │   ├── main.js              # 主要 JavaScript 檔案
+│   │   └── i18n.js              # 多語言系統（400+ 行）
+│   ├── 🎨 scss/                 # SCSS 原始檔
+│   └── 📦 vendor/               # 第三方套件
+│       ├── bootstrap/           # Bootstrap 5.3.3
+│       ├── aos/                 # 滾動動畫
+│       ├── glightbox/           # 圖片燈箱
+│       ├── swiper/              # 輪播元件
+│       └── isotope-layout/      # 佈局管理
 ├── 📝 forms/
-│   └── contact.php               # 聯絡表單處理
-├── 📦 storage/                   # 儲存檔案
-├── .gitignore                   # Git 忽略檔案
-└── README.md                    # 專案說明
+│   └── contact.php              # 聯絡表單處理
+├── 📦 storage/                  # 儲存檔案
+├── .gitignore                  # Git 忽略檔案
+├── README.md                   # 專案說明（本檔案）
+├── robots.txt                  # 搜尋引擎爬蟲設定
+└── sitemap.xml                 # 網站地圖
 ```
 
 ## ✨ 功能特色
@@ -66,6 +137,9 @@ kencv/
 - ✅ **社交整合** - 多平台社交媒體連結
 - ✅ **SEO 優化** - 完整的 Meta 標籤設定
 - ✅ **分享優化** - Open Graph 和 Twitter Cards
+- ✅ **多語言支援** - 完整繁體中文/英文雙語系統
+- ✅ **表單驗證** - 智慧型聯絡表單（整合 Formspree）
+- ✅ **程式碼品質** - 遵循 Google Style、單一職責原則（SRP）、開放封閉原則（OCP）
 
 ## 🚀 快速開始
 
@@ -115,7 +189,19 @@ npx http-server
 
 ## 📋 更新日誌
 
-### 2025-09-02T15:30:00+08:00
+### 2025-01-28T18:30:00+08:00
+
+- 🎉 **feat**: 完成所有主要頁面的多語言翻譯系統整合
+- ✨ **feat**: 實作完整的 i18n 翻譯引擎（400+ 行翻譯字典）
+- 🔧 **feat**: 為 7 個主要頁面加入 data-i18n 翻譯標籤
+- 🎨 **feat**: 完成 resume.html 主要內容翻譯標籤
+- 📱 **feat**: 完成 skill.html 所有技能項目翻譯
+- 🔍 **feat**: 完成 portfolio.html 標題與篩選器翻譯
+- 🌐 **feat**: 完成 contact.html 表單欄位翻譯
+- 📝 **feat**: 完成 interest.html 基礎翻譯架構
+- 📚 **docs**: 更新 README.md，加入完整專案架構與多語言系統說明
+
+### 2025-01-27T15:30:00+08:00
 
 - 🎉 **feat**: 初始化專案 Git 設定
 - ✨ **feat**: 新增響應式首頁設計
@@ -123,6 +209,7 @@ npx http-server
 - 🎨 **feat**: 實作滾動動畫效果
 - 📱 **feat**: 完善行動裝置適配
 - 🔍 **feat**: SEO 優化設定
+- 🌍 **feat**: 建立多語言系統基礎架構（hreflang、lang 屬性）
 
 ## 📄 授權條款
 
