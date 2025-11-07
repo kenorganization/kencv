@@ -94,15 +94,20 @@ const translations = {
     'portfolio.branding': '品牌設計',
 
     // 聯絡我
-    'contact.title': '聯絡我',
+    'contact.title': '聯繫我',
+    'contact.subtitle': '聯繫我',
     'contact.address': '地址',
+    'contact.address.value': '桃園市中壢區',
     'contact.call': '電話',
+    'contact.call.value': '電子郵件聯繫我吧~',
     'contact.email': '電子郵件',
-    'contact.form.name': '您的姓名',
-    'contact.form.email': '您的電子郵件',
-    'contact.form.subject': '主旨',
-    'contact.form.message': '訊息',
+    'contact.form.name': '貴姓大名',
+    'contact.form.email': '你的電子郵件',
+    'contact.form.subject': '給我的郵件標題',
+    'contact.form.message': '郵件內容',
     'contact.form.send': '發送訊息',
+    'contact.form.loading': 'Loading',
+    'contact.form.success': '您的訊息已成功發送，謝謝您的聯繫！我會盡快回覆您。',
 
     // 其他
     'common.loading': '載入中...',
@@ -195,15 +200,20 @@ const translations = {
     'portfolio.branding': 'Branding',
 
     // Contact
-    'contact.title': 'Contact',
+    'contact.title': 'Contact Me',
+    'contact.subtitle': 'Contact Me',
     'contact.address': 'Address',
+    'contact.address.value': 'Zhongli District, Taoyuan City',
     'contact.call': 'Call',
+    'contact.call.value': 'Please contact me by email~',
     'contact.email': 'Email',
     'contact.form.name': 'Your Name',
     'contact.form.email': 'Your Email',
     'contact.form.subject': 'Subject',
     'contact.form.message': 'Message',
     'contact.form.send': 'Send Message',
+    'contact.form.loading': 'Loading',
+    'contact.form.success': 'Your message has been sent successfully. Thank you for contacting me! I will reply as soon as possible.',
 
     // Common
     'common.loading': 'Loading...',

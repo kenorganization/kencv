@@ -178,8 +178,8 @@
       <section id="contact" class="contact section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>聯繫我</h2>
-          <p>聯繫我</p>
+          <h2 data-i18n="contact.title">聯繫我</h2>
+          <p data-i18n="contact.subtitle">聯繫我</p>
         </div>
         <!-- End Section Title -->
 
@@ -190,8 +190,8 @@
                 <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
                   <i class="bi bi-geo-alt flex-shrink-0"></i>
                   <div>
-                    <h3>地址</h3>
-                    <p>桃園市中壢區</p>
+                    <h3 data-i18n="contact.address">地址</h3>
+                    <p data-i18n="contact.address.value">桃園市中壢區</p>
                   </div>
                 </div>
                 <!-- End Info Item -->
@@ -199,8 +199,8 @@
                 <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
                   <i class="bi bi-telephone flex-shrink-0"></i>
                   <div>
-                    <h3>電話</h3>
-                    <p>電子郵件聯繫我吧~</p>
+                    <h3 data-i18n="contact.call">電話</h3>
+                    <p data-i18n="contact.call.value">電子郵件聯繫我吧~</p>
                   </div>
                 </div>
                 <!-- End Info Item -->
@@ -208,7 +208,7 @@
                 <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
                   <i class="bi bi-envelope flex-shrink-0"></i>
                   <div>
-                    <h3>電子郵件</h3>
+                    <h3 data-i18n="contact.email">電子郵件</h3>
                     <p>ken158ken@yahoo.com.tw</p>
                   </div>
                 </div>
@@ -223,25 +223,25 @@
               <form action="https://formspree.io/f/xyzwzrow" method="POST" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
                 <div class="row gy-4">
                   <div class="col-md-6">
-                    <label for="name-field" class="pb-2">貴姓大名</label>
+                    <label for="name-field" class="pb-2" data-i18n="contact.form.name">貴姓大名</label>
                     <input type="text" name="name" id="name-field" class="form-control" required="" maxlength="100" />
                     <div class="invalid-feedback">請提供您的姓名，最多100個字符</div>
                   </div>
 
                   <div class="col-md-6">
-                    <label for="email-field" class="pb-2">你的電子郵件</label>
+                    <label for="email-field" class="pb-2" data-i18n="contact.form.email">你的電子郵件</label>
                     <input type="email" class="form-control" name="email" id="email-field" required="" maxlength="100" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" />
                     <div class="invalid-feedback">請提供有效的電子郵件地址，如：example@email.com</div>
                   </div>
 
                   <div class="col-md-12">
-                    <label for="subject-field" class="pb-2">給我的郵件標題</label>
+                    <label for="subject-field" class="pb-2" data-i18n="contact.form.subject">給我的郵件標題</label>
                     <input type="text" class="form-control" name="subject" id="subject-field" required="" maxlength="200" />
                     <div class="invalid-feedback">請提供郵件標題，最多200個字符</div>
                   </div>
 
                   <div class="col-md-12">
-                    <label for="message-field" class="pb-2">郵件內容</label>
+                    <label for="message-field" class="pb-2" data-i18n="contact.form.message">郵件內容</label>
                     <textarea class="form-control" name="message" rows="10" id="message-field" required="" maxlength="5000"></textarea>
                     <div class="invalid-feedback">請提供郵件內容，最多5000個字符</div>
                   </div>
@@ -256,14 +256,14 @@
 
                   <!-- 以下是表單提交狀態訊息 -->
                   <div class="col-md-12 text-center">
-                    <div class="loading">Loading</div>
+                    <div class="loading" data-i18n="contact.form.loading">Loading</div>
                     <div class="error-message"></div>
                     <div class="sent-message">
                       <i class="bi bi-check-circle me-2"></i>
-                      您的訊息已成功發送，謝謝您的聯繫！我會盡快回覆您。
+                      <span data-i18n="contact.form.success">您的訊息已成功發送，謝謝您的聯繫！我會盡快回覆您。</span>
                     </div>
 
-                    <button type="submit">發送訊息</button>
+                    <button type="submit" data-i18n="contact.form.send">發送訊息</button>
                   </div>
                 </div>
               </form>
