@@ -40,7 +40,7 @@ const translations = {
     'about.tech-transform': '技術轉型：',
     'about.desc2': '醫材研發期間接觸軟韌體整合，發現對程式開發的熱忱。完成資展國際全端培訓後，獨立完成專題雲端部署（MySQL → PostgreSQL 遷移 + Render 平台架設），掌握 React、Vue、Node.js、Express 等現代化技術棧。',
     'about.current-work': '現職實踐：',
-    'about.desc3': '於盧森堡商濂達科技擔任先進智能工程師，主導 IoT 系統架構設計與軟韌體協議整合平台開發。技術棧涵蓋後端（Spring Boot）、跨平台前端（React Native + TypeScript、Kotlin）及多元資料庫方案（MySQL / PostgreSQL / MongoDB）。持續以跨領域視角創造製造業數位轉型價值。',
+    'about.desc3': '於半導體相關公司擔任先進智能工程師，主導 IoT 系統架構設計與軟韌體協議整合平台開發。技術棧涵蓋後端（Spring Boot）、跨平台前端（React Native + TypeScript、Kotlin）及多元資料庫方案（MySQL / PostgreSQL / MongoDB）。持續以跨領域視角創造製造業數位轉型價值。',
 
     // 履歷
     'resume.title': '履歷',
