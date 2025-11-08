@@ -51,16 +51,84 @@
   display: flex;
   align-items: center;
   gap: 0.75rem;
+  flex-wrap: nowrap; /* 防止換行 */
 }
 
-/* 響應式設計 - 手機版 */
+/* 響應式設計 - 平板與手機版 */
 @media (max-width: 1199px) {
+  /* 縮小 Logo 文字 */
+  .header .logo h1 {
+    font-size: 24px !important; /* iPhone SE 適配 */
+  }
+
+  /* 優化語言切換按鈕 */
   .language-switcher {
-    margin-left: 0;
-    margin-top: 1rem;
-    justify-content: center;
-    padding: 1rem 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-right: 0.5rem; /* 減少右側間距 */
+    gap: 0.35rem; /* 減少按鈕間距 */
+  }
+
+  .language-switcher button {
+    padding: 0.2rem 0.5rem; /* 縮小按鈕 padding */
+    font-size: 0.75rem; /* 縮小字體 */
+    border-radius: 15px;
+  }
+
+  /* 縮小社交圖示 */
+  .header .header-social-links a {
+    font-size: 14px !important;
+    padding-left: 4px !important;
+  }
+
+  /* header-social-links 強制單行 */
+  .header-social-links {
+    gap: 0.5rem; /* 減少間距 */
+    flex-shrink: 0; /* 防止壓縮 */
+  }
+}
+
+/* 小型手機特別優化（iPhone SE, 小於 400px）*/
+@media (max-width: 400px) {
+  .header .logo h1 {
+    font-size: 20px !important; /* 更小的 Logo */
+  }
+
+  .language-switcher {
+    gap: 0.25rem;
+    margin-right: 0.35rem;
+  }
+
+  .language-switcher button {
+    padding: 0.15rem 0.4rem;
+    font-size: 0.7rem;
+  }
+
+  .header-social-links {
+    gap: 0.35rem;
+  }
+
+  .header .header-social-links a {
+    font-size: 13px !important;
+    padding-left: 3px !important;
+  }
+}
+
+/* 確保 header 容器在小螢幕不會過度擠壓 */
+@media (max-width: 1199px) {
+  .header .container-fluid {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  /* Logo 區域適當壓縮 */
+  .header .logo {
+    margin-right: auto !important;
+    flex-shrink: 1;
+  }
+
+  /* Social links 區域保持固定 */
+  .header-social-links {
+    flex-shrink: 0;
+    min-width: fit-content;
   }
 }
 
