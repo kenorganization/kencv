@@ -14,9 +14,9 @@ const translations = {
     'nav.about': '關於我',
     'nav.resume': '履歷',
     'nav.skills': '專長技能',
-    'nav.portfolio': '作品集',
+    'nav.portfolio': '專案',
     'nav.interest': '興趣專長',
-    'nav.contact': '聯絡我',
+    'nav.contact': '聯繫我',
     'nav.life': '一些生活',
 
     // 首頁
