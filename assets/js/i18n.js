@@ -20,7 +20,7 @@ const translations = {
     'nav.life': '一些生活',
 
     // 首頁
-    'home.greeting': 'Hi！我是健恩',
+    'home.greeting': 'Hi！我是 Ken',
     'home.tagline': '從實驗室到程式碼—跨領域的全端工程師，融合科學與創意開發。',
     'home.cta': '關 於 我',
 
@@ -503,8 +503,8 @@ function updatePageContent() {
 function updateImageAlts() {
   const altTranslations = {
     'zh-TW': {
-      'hero-bg': '健恩 Ken - 全端工程師個人形象照',
-      'profile-img': '健恩 Ken - IoT 系統架構全端工程師專業照',
+      'hero-bg': 'Ken - 全端工程師個人形象照',
+      'profile-img': 'Ken - IoT 系統架構全端工程師專業照',
       'ispan-project': '資展國際全端培訓專題 - 雲端部署專案',
       'gurulaptop-project': 'GuruLaptop 筆電電商平台專案',
       'loyalcare-project': 'LoyalCare 醫療照護系統專案',

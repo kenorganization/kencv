@@ -1,5 +1,5 @@
 # robots.txt for https://kenorganization.github.io/kencv/
-# 健恩 Ken - 個人網站爬蟲指引
+# Ken - 個人網站爬蟲指引
 
 User-agent: *
 Allow: /

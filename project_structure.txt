@@ -1,0 +1,219 @@
+列出磁碟區 16T小恩硬碟 的資料夾 PATH
+磁碟區序號為 0019-E0AE
+X:.
+|   .prettierrc
+|   Readme.txt
+|   project-ispan.html
+|   portfolio-details.html
+|   starter-page.html
+|   project-loyalcare.html
+|   project-Neb.html
+|   project-silentneb.html
+|   project-gurulaptop.html
+|   .gitignore
+|   note
+|   README.md
+|   about.html
+|   contact.html
+|   index.html
+|   interest.html
+|   portfolio.html
+|   resume.html
+|   skill.html
+|   robots.txt
+|   sitemap.xml
+|   CHANGELOG_2025-02-02T00-00-00Z.md
+|   project_structure.txt
+|   
++---assets
+|   +---css
+|   |       main.css
+|   |       i18n.css
+|   |       
+|   +---img
+|   |   |   avatar - 複製.jpg
+|   |   |   favicon.png
+|   |   |   hero-bg.jpg
+|   |   |   hero-bg1.png
+|   |   |   hero-bg11.jpg
+|   |   |   Ken_signature.png
+|   |   |   logo.png
+|   |   |   profile-img.jpg
+|   |   |   profile-img1.jpg
+|   |   |   
+|   |   +---masonry-portfolio
+|   |   |       masonry-portfolio-1.jpg
+|   |   |       masonry-portfolio-2.jpg
+|   |   |       masonry-portfolio-3.jpg
+|   |   |       masonry-portfolio-4.jpg
+|   |   |       masonry-portfolio-5.jpg
+|   |   |       masonry-portfolio-6.jpg
+|   |   |       masonry-portfolio-7.jpg
+|   |   |       masonry-portfolio-8.jpg
+|   |   |       masonry-portfolio-9.jpg
+|   |   |       
+|   |   +---portfolio
+|   |   |       app-1.jpg
+|   |   |       books-1.jpg
+|   |   |       branding-1.jpg
+|   |   |       product-1.jpg
+|   |   |       
+|   |   +---project
+|   |   |   |   gurulaptop.avif
+|   |   |   |   ispan1.avif
+|   |   |   |   ispan2.png
+|   |   |   |   loyalcare1.jpg
+|   |   |   |   mino.jpg
+|   |   |   |   
+|   |   |   +---microbase
+|   |   |   |       loyalcare1.jpg
+|   |   |   |       Neb.jpg
+|   |   |   |       Neb1.png
+|   |   |   |       Neb2.jpg
+|   |   |   |       nebNeb_750_1_cover1.png
+|   |   |   |       SN.jpg
+|   |   |   |       SN1.jpg
+|   |   |   |       
+|   |   |   \---resume
+|   |   |           10805-1.JPG
+|   |   |           10805.JPG
+|   |   |           2018bio.JPG
+|   |   |           2018bio1.JPG
+|   |   |           2019bio.JPG
+|   |   |           2019bio1.png
+|   |   |           49-food.png
+|   |   |           49-food1.JPG
+|   |   |           49-food2.JPG
+|   |   |           animaltest.JPG
+|   |   |           foodexpert.jpg
+|   |   |           保健食品工程師初級能力鑑定_page-0001.jpg
+|   |   |           食品品保工程師初級能力鑑定_page-0001.jpg
+|   |   |           
+|   |   +---skill
+|   |   |       1.png
+|   |   |       2.png
+|   |   |       3.png
+|   |   |       4.png
+|   |   |       5.png
+|   |   |       6.png
+|   |   |       
+|   |   \---testimonials
+|   |           testimonials-1.jpg
+|   |           testimonials-2.jpg
+|   |           testimonials-3.jpg
+|   |           testimonials-4.jpg
+|   |           testimonials-5.jpg
+|   |           
+|   +---js
+|   |       main.js
+|   |       i18n.js
+|   |       
+|   +---scss
+|   |       Readme.txt
+|   |       
+|   \---vendor
+|       +---aos
+|       |       aos.cjs.js
+|       |       aos.css
+|       |       aos.esm.js
+|       |       aos.js
+|       |       aos.js.map
+|       |       
+|       +---bootstrap
+|       |   +---css
+|       |   |       bootstrap-grid.css
+|       |   |       bootstrap-grid.css.map
+|       |   |       bootstrap-grid.min.css
+|       |   |       bootstrap-grid.min.css.map
+|       |   |       bootstrap-grid.rtl.css
+|       |   |       bootstrap-grid.rtl.css.map
+|       |   |       bootstrap-grid.rtl.min.css
+|       |   |       bootstrap-grid.rtl.min.css.map
+|       |   |       bootstrap-reboot.css
+|       |   |       bootstrap-reboot.css.map
+|       |   |       bootstrap-reboot.min.css
+|       |   |       bootstrap-reboot.min.css.map
+|       |   |       bootstrap-reboot.rtl.css
+|       |   |       bootstrap-reboot.rtl.css.map
+|       |   |       bootstrap-reboot.rtl.min.css
+|       |   |       bootstrap-reboot.rtl.min.css.map
+|       |   |       bootstrap-utilities.css
+|       |   |       bootstrap-utilities.css.map
+|       |   |       bootstrap-utilities.min.css
+|       |   |       bootstrap-utilities.min.css.map
+|       |   |       bootstrap-utilities.rtl.css
+|       |   |       bootstrap-utilities.rtl.css.map
+|       |   |       bootstrap-utilities.rtl.min.css
+|       |   |       bootstrap-utilities.rtl.min.css.map
+|       |   |       bootstrap.css
+|       |   |       bootstrap.css.map
+|       |   |       bootstrap.min.css
+|       |   |       bootstrap.min.css.map
+|       |   |       bootstrap.rtl.css
+|       |   |       bootstrap.rtl.css.map
+|       |   |       bootstrap.rtl.min.css
+|       |   |       bootstrap.rtl.min.css.map
+|       |   |       prb.txt
+|       |   |       
+|       |   \---js
+|       |           bootstrap.bundle.js
+|       |           bootstrap.bundle.js.map
+|       |           bootstrap.bundle.min.js
+|       |           bootstrap.bundle.min.js.map
+|       |           bootstrap.esm.js
+|       |           bootstrap.esm.js.map
+|       |           bootstrap.esm.min.js
+|       |           bootstrap.esm.min.js.map
+|       |           bootstrap.js
+|       |           bootstrap.js.map
+|       |           bootstrap.min.js
+|       |           bootstrap.min.js.map
+|       |           
+|       +---bootstrap-icons
+|       |   |   bootstrap-icons.css
+|       |   |   bootstrap-icons.json
+|       |   |   bootstrap-icons.min.css
+|       |   |   bootstrap-icons.scss
+|       |   |   
+|       |   \---fonts
+|       |           bootstrap-icons.woff
+|       |           bootstrap-icons.woff2
+|       |           
+|       +---glightbox
+|       |   +---css
+|       |   |       glightbox.css
+|       |   |       glightbox.min.css
+|       |   |       
+|       |   \---js
+|       |           glightbox.js
+|       |           glightbox.min.js
+|       |           
+|       +---imagesloaded
+|       |       imagesloaded.pkgd.min.js
+|       |       
+|       +---isotope-layout
+|       |       isotope.pkgd.js
+|       |       isotope.pkgd.min.js
+|       |       
+|       +---php-email-form
+|       |       validate.js
+|       |       
+|       +---purecounter
+|       |       purecounter_vanilla.js
+|       |       purecounter_vanilla.js.map
+|       |       
+|       +---swiper
+|       |       swiper-bundle.min.css
+|       |       swiper-bundle.min.js
+|       |       swiper-bundle.min.js.map
+|       |       
+|       \---waypoints
+|               noframework.waypoints.js
+|               
++---forms
+|       contact.php
+|       Readme.txt
+|       
+\---storage
+        Kelly.zip
+        

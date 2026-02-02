@@ -1,6 +1,6 @@
-# 健恩 (Ken) - 個人履歷網站
+# Ken - 個人履歷網站
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3.3-purple.svg)](https://getbootstrap.com/) [![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--01--28-brightgreen.svg)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3.3-purple.svg)](https://getbootstrap.com/) [![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--02--02-brightgreen.svg)](#)
 
 ## 🚀 專案描述
 
@@ -183,11 +183,26 @@ npx http-server
 
 ## 📞 聯絡資訊
 
-- **開發者**: 健恩 (Ken)
+- **開發者**: Ken
 - **職位**: 跨領域全端工程師
 - **專長**: 網頁開發、醫療器材研發、化妝品研發
 
 ## 📋 更新日誌
+
+### 2025-02-02T00:00:00Z
+
+- 🔒 **security**: 移除所有公開顯示的個人 email 地址（隱私保護）
+- ✏️ **refactor**: 將所有「」字樣更新為「Ken」（57+ 處）
+- 🗑️ **remove**: 移除所有 HTML 頁面 header/footer 的 email 連結（26 處）
+- 🔧 **fix**: 移除 contact.html 錯誤訊息中的 email 提示（4 處）
+- 📝 **update**: 更新所有頁面 SEO meta tags（title, description, keywords, author）
+- 🌐 **update**: 更新 Open Graph 和 Twitter Card 社交媒體標籤
+- 🖼️ **update**: 更新所有圖片 alt 屬性翻譯
+- 📚 **docs**: 更新 README.md 標題與聯絡資訊
+- 🤖 **update**: 更新 robots.txt 註解
+- 🌍 **update**: 更新 i18n.js 多語言翻譯（首頁問候語、圖片描述）
+- ✅ **保留**: 表單功能的 email 設定（forms/contact.php）
+- 📄 **docs**: 新增詳細更新報告（CHANGELOG_2025-02-02T00-00-00Z.md）
 
 ### 2025-01-28T18:30:00+08:00
 

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-TW">
   <head>
     <!-- Google tag (gtag.js) -->
@@ -15,10 +15,10 @@
 
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>聯絡我 - 健恩 Ken | 合作洽談與聯繫方式</title>
-    <meta name="description" content="歡迎與健恩聯繫！提供專業的全端開發、IoT 系統架構諮詢服務。Email: ken158ken@yahoo.com.tw，位於桃園市，歡迎合作洽談。" />
-    <meta name="keywords" content="聯絡方式, 合作洽談, 全端開發服務, IoT諮詢, 桃園工程師, ken158ken@yahoo.com.tw" />
-    <meta name="author" content="健恩" />
+    <title>聯絡我 - Ken | 合作洽談與聯繫方式</title>
+    <meta name="description" content="歡迎與 Ken 聯繫！提供專業的全端開發、IoT 系統架構諮詢服務。位於桃園市，歡迎合作洽談。" />
+    <meta name="keywords" content="聯絡方式, 合作洽談, 全端開發服務, IoT諮詢, 桃園工程師" />
+    <meta name="author" content="Ken" />
     <meta name="robots" content="noindex, follow" />
 
     <!-- Canonical URL -->
@@ -167,7 +167,7 @@
           </div>
 
           <a href="https://www.linkedin.com/in/%E5%81%A5%E6%81%A9-%E5%BE%90-21a279207/" target="_blank" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
-          <a href="mailto:ken158ken@yahoo.com.tw" title="Email"><i class="bi bi-envelope"></i></a>
+          <!-- Email 已移除以保護隱私 -->
           <a href="https://www.cake.me/s--aki_V7TcrKM7MKCprTQv8g--/ken150ken150" target="_blank" title="CakeResume"><i class="bi bi-file-person"></i></a>
           <a href="#" title="GitHub"><i class="bi bi-github"></i></a>
         </div>
@@ -210,7 +210,7 @@
                   <i class="bi bi-envelope flex-shrink-0"></i>
                   <div>
                     <h3 data-i18n="contact.email">電子郵件</h3>
-                    <p>ken158ken@yahoo.com.tw</p>
+                    <p data-i18n="contact.email-hidden">請透過下方表單聯繫</p>
                   </div>
                 </div>
                 <!-- End Info Item -->
@@ -425,7 +425,7 @@
                         } else if (response.status === 429) {
                           throw new Error('您提交的速度過快，請稍後再試。');
                         } else if (response.status === 422) {
-                          throw new Error('表單提交被拒絕，可能是防垃圾郵件檢查未通過。請稍後再試或直接發送郵件至 ken158ken@yahoo.com.tw');
+                          throw new Error('表單提交被拒絕，可能是防垃圾郵件檢查未通過。請稍後再試。');
                         } else {
                           return response.json().then((data) => {
                             throw new Error(data.error || '表單提交失敗，請稍後再試。');
@@ -462,13 +462,13 @@
 
                           if (error.message.includes('提交速度過快')) {
                             errorTitle = '頻率限制';
-                            errorMsg = '您提交的速度過快，這是防止濫用的安全措施。請稍等幾分鐘後再次嘗試，或直接發送郵件至 ken158ken@yahoo.com.tw';
+                            errorMsg = '您提交的速度過快，這是防止濾用的安全措施。請稍等幾分鐘後再次嘗試。';
                           } else if (error.message.includes('防垃圾郵件檢查')) {
                             errorTitle = '安全檢查';
-                            errorMsg = '您的提交被系統標記為可疑。這可能是暫時性問題，請稍後再試，或直接發送郵件至 ken158ken@yahoo.com.tw';
+                            errorMsg = '您的提交被系統標記為可疑。這可能是暫時性問題，請稍後再試。';
                           } else if (error.message.includes('Network Error') || error.message.includes('Failed to fetch')) {
                             errorTitle = '網絡問題';
-                            errorMsg = '無法連接到伺服器。請檢查您的網絡連接，然後再試一次。如果問題持續存在，請直接發送郵件至 ken158ken@yahoo.com.tw';
+                            errorMsg = '無法連接到伺服器。請檢查您的網絡連接，然後再試一次。';
                           }
 
                           showError(errorMsg, errorTitle);
@@ -500,7 +500,7 @@
         </div>
         <div class="social-links d-flex justify-content-center">
           <a href="https://www.linkedin.com/in/%E5%81%A5%E6%81%A9-%E5%BE%90-21a279207/" target="_blank" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
-          <a href="mailto:ken158ken@yahoo.com.tw" title="Email"><i class="bi bi-envelope"></i></a>
+          <!-- Email 已移除以保護隱私 -->
           <a href="https://www.cake.me/s--aki_V7TcrKM7MKCprTQv8g--/ken150ken150" target="_blank" title="CakeResume"><i class="bi bi-file-person"></i></a>
           <a href="#" title="GitHub"><i class="bi bi-github"></i></a>
         </div>
